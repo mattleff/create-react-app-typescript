@@ -35,7 +35,7 @@ module.exports = (resolve, rootDir) => {
     testURL: 'http://localhost',
     transform: {
       '^.+\\.css$': resolve('config/jest/cssTransform.js'),
-      '^.+\\.tsx?$': resolve('config/jest/typescriptTransform.js'),
+      '^.+\\.tsx?$': 'typescript-babel-jest',
       '^(?!.*\\.(css|json)$)': resolve('config/jest/fileTransform.js'),
     },
     transformIgnorePatterns: [
