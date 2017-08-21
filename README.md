@@ -17,11 +17,37 @@ npm start
 ## Features
 
 ### Code highlighting on error
-When you run `npm run build` the terminal will output the error, including the highlighted sourecode (like babel)!
+When you run `npm run build` the terminal will output the error, including the highlighted sourcecode (like babel)!
 
 ![CodeHighlight](https://cloud.githubusercontent.com/assets/175278/22310149/1ee66ccc-e346-11e6-83ff-e3a053701fb4.gif)
 
 ## Changelog
+
+### 2.6.0
+* Merge react-scripts@1.0.10 - @wmonk
+* Update component template - @pelotom
+
+### 2.5.0
+* Support dynamic imports - thanks @nicolaserny, @DorianGrey
+* Fix up tsconfig - thanks @js-n
+* Fix readme typo - thanks @adambowles
+* Move to ts-jest - thanks @DorianGrey
+
+### 2.4.0
+* Upgrade typescript to 2.4 and ts-loader to 2.2.1 - thanks @frederickfogerty
+* Fix readme typo - thanks @wrongway4you
+
+### 2.3.2
+* Fix `typescript` version to 2.3.x until 2.4 @types are fixed
+
+### 2.3.1
+
+* All tsc to parse config (for `extend`) - Thanks to @DorianGrey
+* Fix various jest issues - thanks to @zinserjan
+* Fix code coverage - thanks to @zinserjan
+
+### 2.2.0
+* Upgrade to [`react-scripts@1.0.6`](https://github.com/facebookincubator/create-react-app/)
 
 ### 2.1.0
 * Update to `tslint@5.2.0` - thanks to @mindjuice
